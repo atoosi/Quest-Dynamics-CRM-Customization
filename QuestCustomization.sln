@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{88A30576-7583-4F75-8136-5EFD2C14ADFF}") = "CrmPackage", "QuestCustomization\CrmPackage\CrmPackage.csproj", "{C699039D-51BF-4539-AB16-AC5909BE32CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BABE404-DF5C-4E51-AE12-C09AD3D8AF61} = {5BABE404-DF5C-4E51-AE12-C09AD3D8AF61}
+		{3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D} = {3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "QuestCustomization\Plugins\Plugins.csproj", "{5BABE404-DF5C-4E51-AE12-C09AD3D8AF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow", "QuestCustomization\Workflow\Workflow.csproj", "{3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D}"
+EndProject
+Global
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C699039D-51BF-4539-AB16-AC5909BE32CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C699039D-51BF-4539-AB16-AC5909BE32CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C699039D-51BF-4539-AB16-AC5909BE32CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C699039D-51BF-4539-AB16-AC5909BE32CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C699039D-51BF-4539-AB16-AC5909BE32CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C699039D-51BF-4539-AB16-AC5909BE32CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5BABE404-DF5C-4E51-AE12-C09AD3D8AF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BABE404-DF5C-4E51-AE12-C09AD3D8AF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BABE404-DF5C-4E51-AE12-C09AD3D8AF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BABE404-DF5C-4E51-AE12-C09AD3D8AF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6F0EA4-2FB2-43EB-9FA9-72447F96F41D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

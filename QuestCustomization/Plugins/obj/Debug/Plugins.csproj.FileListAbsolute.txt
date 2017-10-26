@@ -1,0 +1,39 @@
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.pdb
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.dll
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.pdb
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll.config
+C:\SWDE\QuestCustomization\QuestCustomization\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll.config
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.pdb
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.pdb
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\QuestCustomization\QuestCustomization\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll.config
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.pdb
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.dll
+C:\Users\ADMINISTRATOR.QUESTINC\Desktop\ClickDimentions\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.pdb
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll.config
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.pdb
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.dll
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.pdb
+C:\Ali\ClickDimentions\QuestCustomization\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll.config
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.dll
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\bin\Debug\QuestCustomization.Plugins.pdb
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.dll
+C:\Ali\Questnet to Crm\Quest to CRM project\ClickDimentions\QuestCustomization\Plugins\obj\Debug\QuestCustomization.Plugins.pdb

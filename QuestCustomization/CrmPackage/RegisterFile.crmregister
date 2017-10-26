@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="QuestCustomization.Plugins.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="None" SourceType="Database">
+      <PluginTypes>
+        <Plugin Description="Plug-in to PostProductCreate" FriendlyName="PostProductCreate" Name="QuestCustomization.Plugins.PostProductCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostProductCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostProductCreate" Description="Post-Operation of Product Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Asynchronous" PrimaryEntityName="product" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostContactCreate" FriendlyName="PostContactCreate" Name="QuestCustomization.Plugins.PostContactCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostContactCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostContactCreate" Description="Post-Operation of Contact Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="contact" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostContactUpdate" FriendlyName="PostContactUpdate" Name="QuestCustomization.Plugins.PostContactUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostContactUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostContactUpdate" Description="Post-Operation of Contact Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="contact" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreValidateAddressCreate" FriendlyName="PreValidateAddressCreate" Name="QuestCustomization.Plugins.PreValidateAddressCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PreValidateAddressCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PreValidateAddressCreate" Description="Pre-Validation of Address Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="customeraddress" Rank="1" SecureConfiguration="" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostAddressCreate" FriendlyName="PostAddressCreate" Name="QuestCustomization.Plugins.PostAddressCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostAddressCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostAddressCreate" Description="Post-Operation of Address Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="customeraddress" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostAddressUpdate" FriendlyName="PostAddressUpdate" Name="QuestCustomization.Plugins.PostAddressUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostAddressUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostAddressUpdate" Description="Post-Operation of Address Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="customeraddress" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostOrderUpdate" FriendlyName="PostOrderUpdate" Name="QuestCustomization.Plugins.PostOrderUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostOrderUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostOrderUpdate" Description="Post-Operation of Order Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="salesorder" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostQuoteUpdate" FriendlyName="PostQuoteUpdate" Name="QuestCustomization.Plugins.PostQuoteUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostQuoteUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostQuoteUpdate" Description="Post-Operation of Quote Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="quote" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="PostImage" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PreImage" />
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostAccountUpdate" FriendlyName="PostAccountUpdate" Name="QuestCustomization.Plugins.PostAccountUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostAccountUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostAccountUpdate" Description="Post-Operation of Account Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="account" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="Before" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PreImage" />
+                <Image EntityAlias="After" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostCRFQLineCreate" FriendlyName="PostCRFQLineCreate" Name="QuestCustomization.Plugins.PostCRFQLineCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostCRFQLineCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostCRFQLineCreate" Description="Post-Operation of C RFQ Line Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="new_assets" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="AfterImage" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostCaseCreate" FriendlyName="PostCaseCreate" Name="QuestCustomization.Plugins.PostCaseCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostCaseCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostCaseCreate" Description="Post-Operation of Case Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Asynchronous" PrimaryEntityName="incident" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="AfterImage" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostLeadCreate" FriendlyName="PostLeadCreate" Name="QuestCustomization.Plugins.PostLeadCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostLeadCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostLeadCreate" Description="Post-Operation of Lead Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Asynchronous" PrimaryEntityName="lead" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="PostImage" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostLeadUpdate" FriendlyName="PostLeadUpdate" Name="QuestCustomization.Plugins.PostLeadUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostLeadUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostLeadUpdate" Description="Post-Operation of Lead Update" FilteringAttributes="new_formurl" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="lead" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="preImage" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PreImage" />
+                <Image EntityAlias="PostImage" Id="00000000-0000-0000-0000-000000000000" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostServiceActivityCreate" FriendlyName="PostServiceActivityCreate" Name="QuestCustomization.Plugins.PostServiceActivityCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostServiceActivityCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostServiceActivityCreate" Description="Post-Operation of Service Activity Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="serviceappointment" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostSupportRecordCreate" FriendlyName="PostSupportRecordCreate" Name="QuestCustomization.Plugins.PostSupportRecordCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostSupportRecordCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostSupportRecordCreate" Description="Post-Operation of Support Record Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="new_supportrecord" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostSupportRecordUpdate" FriendlyName="PostSupportRecordUpdate" Name="QuestCustomization.Plugins.PostSupportRecordUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostSupportRecordUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostSupportRecordUpdate" Description="Post-Operation of Support Record Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="new_supportrecord" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostPostedFormCreate" FriendlyName="PostPostedFormCreate" Name="QuestCustomization.Plugins.PostPostedFormCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostPostedFormCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostPostedFormCreate" Description="Post-Operation of Posted Form Create" Id="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="cdi_postedform" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostPostedFormUpdate" FriendlyName="PostPostedFormUpdate" Name="QuestCustomization.Plugins.PostPostedFormUpdate" Id="00000000-0000-0000-0000-000000000000" TypeName="QuestCustomization.Plugins.PostPostedFormUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostPostedFormUpdate" Description="Post-Operation of Posted Form Update" Id="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="cdi_postedform" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+    <Solution Assembly="QuestCustomization.Workflow.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="None" SourceType="Database" />
+  </Solutions>
+  <XamlWorkflows />
+</Register>
